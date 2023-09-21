@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Design & Media Kit.png'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+.about-text {
+  position: Fixed;
+  color: white;
+  top: 20px; /* Adjust the top position as needed */
+  right: 250px; /* Adjust the right position as needed */
+  font-size: 26px; /* Adjust the font size as needed */
+  font-family: 'Bebas Neue';
+}
+
+.more-text {
+  color: white;
+  position: fixed;
+  top: 20px; /* Adjust the top position to place it below "ABOUT" */
+  right: 170px; /* Keep the same right position */
+  font-size: 26px; /* Adjust the font size as needed */
+  font-family: 'Bebas Neue';
+}
+
+/* Add CSS for the .text section */
+.text {
+    text-align: justify; /* Center-align the text */
+  position: fixed;
+  bottom: 10%;
+  left: 3%;
+  z-index: 2; /* Set a higher z-index value to place it above the quarters */
+  font-family: 'Bebas Neue';
+}
+
+.text p {
+  font-size: 36px; /* Adjust the font size as needed */
+  z-index: 2; /* Ensure that text is above the logo */
+  line-height: 1 !important; 
+  font-family: 'Bebas Neue';
+}
+
+/* Add CSS for the .logo section */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2; /* Set a higher z-index value to place it above the quarters */
+}
+
+.logo img {
+  width: 37px; /* Set the logo image width as needed */
+  height: 33px; /* Set the logo image height as needed */
+  z-index: 2; /* Ensure that logo image is above the quarters */
+  position: fixed;
+  top:7.2%;
+  left:9%;
+}
+
+.logo p {
+  font-size: 46px; /* Adjust the font size as needed */
+  z-index: 2; /* Ensure that logo text is above the quarters */
+  font-weight: 500;
+  position: fixed;
+  top: 0%;
+  left:3%;
+  line-height: 1 !important; 
+  font-family: 'Bebas Neue';
+}
+
+
+
+
+
+.card1 img{
+  transform: rotate(-15deg) translate(130%, 120%);
+  width: 210px !important;
+  height: auto !important;
+  position: relative;
+
+}
+
+.card2 img{
+  transform: rotate(-15deg) translate(185%, -30%);
+  width: 240px !important;
+  height:auto !important;
+  position: relative;
+}
+
+.card3 img {
+  transform:  rotate(15deg) translate(180%, -171%);
+  width: 300px !important;
+  height:auto !important;
+  position: relative;
+}
+
+.card4 img {
+  transform: rotate(18deg) translate(340%, -345%);
+  width: 220px !important;
+  height: auto !important;
+  position: relative;
+}
+
+.card5 img {
+  transform: rotate(18deg) translate(220%, -440%);
+  width: 240px !important;
+  height: auto !important;
+  position: relative;
+}
+
+.card3 {
+  position: relative;
+z-index: 100 !important;
+width: 300px !important;
+  height:auto !important;
+}
+
+.card2 {
+  position: relative;
+z-index: 98 !important;
+width: 240px !important;
+  height:auto !important;
+}
+
+.card1 {
+  position: relative;
+z-index: 97 !important;
+width: 210px !important;
+height: auto !important;
+}
+
+.card5 {
+  position: relative;
+z-index: 99 !important;
+width: 240px !important;
+  height: auto !important;
+}
+
+.card6 {
+  position: relative;
+z-index: 101 !important;
+width: 300px !important;
+  height:auto !important;
+}
+
+.card6 img {
+  transform: rotate(-9deg) translate(295%, -342%);
+  width: 300px !important;
+  height:auto !important;
+  position: relative;
+}
+
+
+/* Hover effect for individual cards */
+.card1:hover {
+  transform: rotate(0deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.2s;
+}
+
+.card2:hover {
+  transform: rotate(-5deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.2s;
+}
+
+.card3:hover {
+  transform: rotate(0deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.2s;
+}
+
+.card4:hover {
+  transform: rotate(5deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.2s;
+}
+
+.card5:hover {
+  transform: rotate(5deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.2s;
+}
+
+.card6:hover {
+  transform: rotate(-5deg) scale(1.05);
+  z-index: 110 !important;
+  transition-delay: 0.3s;
+}
+
+/* Card content styles */
+.content {
+  color: #333;
+}
+
+
+  
+  
+  
+  
+  
