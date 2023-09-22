@@ -78,41 +78,58 @@ body {
 
 
 
-.card1 img{
-  transform: rotate(-15deg) translate(130%, 120%);
+.card1 img {
+  top: 210px; /* Adjust the top position */
+  left: 310px; /* Adjust the right position */
+  rotate: -8deg;
   width: 210px !important;
   height: auto !important;
-  position: relative;
-
+  position: absolute;
 }
 
-.card2 img{
-  transform: rotate(-15deg) translate(185%, -30%);
+.card2 img {
+  top: 100px; /* Adjust the top position */
+  left: 430px; /* Adjust the right position */
+  rotate: -8deg;
   width: 240px !important;
-  height:auto !important;
-  position: relative;
+  height: auto !important;
+  position: absolute;
 }
 
 .card3 img {
-  transform:  rotate(15deg) translate(180%, -171%);
+  top: 30px; /* Adjust the top position */
+  left: 760px; /* Adjust the right position */
   width: 300px !important;
-  height:auto !important;
-  position: relative;
+  height: auto !important;
+  position: absolute;
 }
 
 .card4 img {
-  transform: rotate(18deg) translate(340%, -345%);
+  top: 250px; /* Adjust the top position */
+  left: 1190px; /* Adjust the right position */
+  rotate: 8deg;
   width: 220px !important;
   height: auto !important;
-  position: relative;
+  position: absolute;
 }
 
 .card5 img {
-  transform: rotate(18deg) translate(220%, -440%);
+  top: 100px; /* Adjust the top position */
+  left: 1030px; /* Adjust the left position */
+  rotate: 8deg;
   width: 240px !important;
   height: auto !important;
-  position: relative;
+  position: absolute;
 }
+
+.card6 img {
+  top: 170px; /* Adjust the top position */
+  left: 590px; /* Adjust the left position */
+  width: 300px !important;
+  height: auto !important;
+  position: absolute;
+}
+
 
 .card3 {
   position: relative;
@@ -149,49 +166,48 @@ width: 300px !important;
   height:auto !important;
 }
 
-.card6 img {
-  transform: rotate(-9deg) translate(295%, -342%);
-  width: 300px !important;
-  height:auto !important;
-  position: relative;
-}
+
 
 
 /* Hover effect for individual cards */
 .card1:hover {
-  transform: rotate(0deg) scale(1.05);
+  transform: rotate(8deg) ;
   z-index: 110 !important;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s ;
+  
+
 }
 
 .card2:hover {
-  transform: rotate(-5deg) scale(1.05);
+  transform: rotate(8deg) ;
   z-index: 110 !important;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s ;
+
 }
 
 .card3:hover {
-  transform: rotate(0deg) scale(1.05);
+  transform: scale(1.05) ;
   z-index: 110 !important;
-  transition-delay: 0.2s;
+  transition-delay: 0.4s ;
 }
 
 .card4:hover {
-  transform: rotate(5deg) scale(1.05);
+  transform: rotate(-8deg) ;
   z-index: 110 !important;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s ;
+
 }
 
 .card5:hover {
-  transform: rotate(5deg) scale(1.05);
+  transform: rotate(-8deg) ;
   z-index: 110 !important;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s ;
 }
 
 .card6:hover {
-  transform: rotate(-5deg) scale(1.05);
+  transform: scale(1.05);
   z-index: 110 !important;
-  transition-delay: 0.3s;
+  transition-delay: 0.3s ;
 }
 
 /* Card content styles */
